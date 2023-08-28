@@ -10,6 +10,13 @@ link WIP
 
 [Node.js](https://nodejs.org/en) - 20.5.1
 
+## Tech Stack WIP
+
+- [Next.js](https://nextjs.org/) - Bundler
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [VSCode](https://code.visualstudio.com/) - IDE
+- [Gsap](https://greensock.com/gsap/) - Animation Library
+
 ## Building
 
 1. Clone the repository

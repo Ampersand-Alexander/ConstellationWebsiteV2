@@ -16,7 +16,8 @@ link WIP
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [VSCode](https://code.visualstudio.com/) - IDE
 - [Gsap](https://greensock.com/gsap/) - Animation Library
-
+- [Spline](https://spline.design/) - 3D design tool
+- 
 ## Building
 
 1. Clone the repository

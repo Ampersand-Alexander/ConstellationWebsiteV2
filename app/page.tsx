@@ -6,7 +6,7 @@ import Spline from '@splinetool/react-spline';
 import PreLoader from "./components/other/PreLoader";
 
 
-import Greetings from "./sections/greetings"
+import Introduction from "./sections/introduction"
 import Ruby from "./sections/ruby"
 
 export default function Home() {
@@ -14,9 +14,9 @@ export default function Home() {
     <>
       <PreLoader />
       <main
-                className="flex flex-col items-center justify-center bg-black"
+                className="flex flex-col items-center justify-center bg-white"
             ></main>
-        <Greetings />
+        <Introduction />
         <Ruby />
     </>
   )

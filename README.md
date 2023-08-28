@@ -15,7 +15,7 @@ link WIP
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/nuIIpointerexception/www.seekvisualartist.com/
+    git clone https://github.com/Ampersand-Alexander/ConstellationWebsiteV2.git
     ```
 
 2. Install dependencies

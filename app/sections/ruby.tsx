@@ -8,6 +8,7 @@ const Ruby = () => {
     return (
         <section className="mx-auto flex w-[100%] flex-col lg:flex-row lg:gap-20 relative z-10 w-full flex items-center justify-center overflow-hidden bg-[#FFFFFF] bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56" id="greetings">
             <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#000000] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed md:ml-40 lg:mb-16  lg:max-w-[90%] lg:text-[24px] lg:ml-80">
+                <div className="mb-8 lg:mb-8"></div> {/* Add whitespace above */}
                 <AnimatedBody text="My passion lies in creating software that is both beautiful and functional. I’ve been designing for over 8 years and recently started getting into programming." />
 
                 <AnimatedBody

@@ -1,5 +1,9 @@
 'use client'
 
+// ruby does not have text to the left of it, 
+// color pallet is boring, 
+// something about the greeting animation is boring,
+
 import Image from 'next/image'
 import Spline from '@splinetool/react-spline';
 

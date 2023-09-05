@@ -12,6 +12,7 @@ import PreLoader from "./components/other/PreLoader";
 
 import Introduction from "./sections/introduction"
 import Ruby from "./sections/ruby"
+import Projects from './sections/projects';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
             ></main>
         <Introduction />
         <Ruby />
+        <Projects />
     </>
   )
 }

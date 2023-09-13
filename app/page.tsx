@@ -9,9 +9,9 @@ import Spline from '@splinetool/react-spline';
 
 import PreLoader from "./components/other/PreLoader";
 
-
-import Introduction from "./sections/introduction"
-import Ruby from "./sections/ruby"
+import Landing from "./sections/landing";
+import Introduction from "./sections/introduction";
+import Ruby from "./sections/ruby";
 import Projects from './sections/projects';
 
 export default function Home() {
@@ -21,6 +21,7 @@ export default function Home() {
       <main
                 className="flex flex-col items-center justify-center bg-white"
             ></main>
+        <Landing />
         <Introduction />
         <Ruby />
         <Projects />

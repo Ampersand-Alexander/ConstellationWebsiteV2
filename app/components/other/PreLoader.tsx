@@ -1,3 +1,5 @@
+//TODO: spice it up with some space themed intros
+
 import React, { useEffect } from "react";
 import gsap from "gsap";
 
@@ -61,8 +63,8 @@ const PreLoader: React.FC = () => {
             style={{
                 height: "100vh",
                 width: "100%",
-                background: "#FFFFFF",
-                color: "#000000",
+                background: "#000000",
+                color: "#FFFFFF",
                 position: "fixed",
                 bottom: 0,
                 left: 0,
@@ -75,7 +77,7 @@ const PreLoader: React.FC = () => {
             }}
         >
             <div
-                className="texts-container w-500 flex h-100 items-center justify-center gap-[5px] overflow-hidden text-[14px] font-bold text-[#000000] opacity-0 sm:gap-[20px] sm:text-[30px] md:text-[45px] lg:text-[70px]"
+                className="texts-container w-500 flex h-100 items-center justify-center gap-[5px] overflow-hidden text-[14px] font-bold text-[#FFFFFF] opacity-0 sm:gap-[20px] sm:text-[30px] md:text-[45px] lg:text-[70px]"
                 style={{
                     height: "100px",
                 }}

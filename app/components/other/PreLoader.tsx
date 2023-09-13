@@ -3,6 +3,9 @@ import gsap from "gsap";
 
 const PreLoader: React.FC = () => {
     useEffect(() => {
+        // Disable scroll on mount
+        document.body.style.overflow = "hidden";
+
         const tl = gsap.timeline();
 
         // Preloader Animation
@@ -44,6 +47,9 @@ const PreLoader: React.FC = () => {
                     ease: "expo.easeOut",
                 });
             }
+
+            // Enable scroll when animation is complete
+            document.body.style.overflow = "auto";
         };
 
         preLoaderAnim();

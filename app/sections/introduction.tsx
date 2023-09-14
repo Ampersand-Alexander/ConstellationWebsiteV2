@@ -29,7 +29,7 @@ const Introduction = () => {
                     wordSpace={"mr-[18px]"}
                     charSpace={"mr-[0.001em]"}
                 />
-                <div className="mb-16 lg:mb-0"></div> {/* Add whitespace below */}
+                <div className="mb-0 lg:mb-0"></div> {/* Add whitespace below */}
             </div>
         </section>
     );

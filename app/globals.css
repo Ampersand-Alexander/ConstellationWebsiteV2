@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0.25rem; /* Adjust the width to hide vertical scrollbar */
+  height: 0.25rem; /* Adjust the height to hide horizontal scrollbar */
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb */
+}

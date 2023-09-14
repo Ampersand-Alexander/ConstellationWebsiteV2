@@ -52,6 +52,7 @@ const PreLoader: React.FC = () => {
 
             // Enable scroll when animation is complete
             document.body.style.overflow = "auto";
+            document.body.classList.add("hide-scrollbar");
         };
 
         preLoaderAnim();

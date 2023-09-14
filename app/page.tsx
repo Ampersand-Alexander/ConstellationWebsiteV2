@@ -9,6 +9,7 @@ import Spline from '@splinetool/react-spline';
 
 import PreLoader from "./components/other/PreLoader";
 
+import Navbar from "./sections/navbar";
 import Landing from "./sections/landing";
 import Introduction from "./sections/introduction";
 import Ruby from "./sections/ruby";
@@ -19,8 +20,9 @@ export default function Home() {
     <>
       <PreLoader />
       <main
-                className="flex flex-col items-center justify-center bg-white"
+                className="flex flex-col items-center justify-center bg-white overflow-y-scroll hide-scrollbar"
             ></main>
+        <Navbar />
         <Landing />
         <Introduction />
         <Ruby />

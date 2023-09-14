@@ -13,7 +13,7 @@ const Introduction = () => {
             className="relative z-300 w-full items-center justify-center overflow-hidden pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-30 lg:pb-56"
             id="about"
             style={{
-                backgroundImage: `url(${"/introfadebckground.png"})`, // Set the background image here
+                backgroundImage: `url(${"/fadebckground.png"})`, // Set the background image here
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundColor: '#000000', // Fallback background color
@@ -29,7 +29,7 @@ const Introduction = () => {
                     wordSpace={"mr-[18px]"}
                     charSpace={"mr-[0.001em]"}
                 />
-                <div className="mb-16 lg:mb-80"></div> {/* Add whitespace below */}
+                <div className="mb-16 lg:mb-0"></div> {/* Add whitespace below */}
             </div>
         </section>
     );

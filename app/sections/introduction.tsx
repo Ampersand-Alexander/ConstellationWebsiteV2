@@ -13,7 +13,7 @@ const Introduction = () => {
             className="relative z-300 w-full items-center justify-center overflow-hidden pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-30 lg:pb-56"
             id="about"
             style={{
-                backgroundImage: `url(${"/fadebckground.png"})`, // Set the background image here
+                backgroundImage: `url(${"/fadebckground.png"})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundColor: '#000000', // Fallback background color
@@ -24,7 +24,7 @@ const Introduction = () => {
                 <AnimatedTitle
                     text={"I'm Alexander, an Aspiring Software Engineer."}
                     className={
-                        "mb-10 text-left text-[40px] font-bold leading-[1.2em] tracking-tighter text-[#FFFFFF] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
+                        "mb-0 text-left text-[40px] font-bold leading-[1.2em] tracking-tighter text-[#FFFFFF] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
                     wordSpace={"mr-[18px]"}
                     charSpace={"mr-[0.001em]"}

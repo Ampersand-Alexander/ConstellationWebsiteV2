@@ -12,7 +12,6 @@ import AnimatedBody from "../animations/AnimatedBody";
 const Skills = () => {
     return (
         <Spline scene="https://prod.spline.design/8cPpnsbOgnRFs5wH/scene.splinecode" className="w-full h-full" />
-
     );
 };
 

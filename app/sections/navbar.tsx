@@ -17,6 +17,7 @@ const NavBar = () => {
         <nav className="fixed top-0 left-0 right-0 bg-[#E58989] shadow-lg z-50">
             <div className="container mx-auto">
                 <ul className="flex space-x-20 p-4">
+                    <img src="/crown.png" alt="Logo" className="w-8 h-8 right-0" />
                     <li>
                         <Link
                             href="#home"

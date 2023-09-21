@@ -2,9 +2,9 @@ import React from 'react';
 
 // Define your icon image URLs
 const iconUrls = [
-  'url_to_icon1.png',
-  'url_to_icon2.png',
-  'url_to_icon3.png',
+  'github.png',
+  'github.png',
+  'github.png',
 ];
 
 // Define the component

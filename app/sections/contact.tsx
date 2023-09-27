@@ -28,7 +28,7 @@ const Contact = () => {
                 src={url}
                 alt={`Icon ${index + 1}`}
                 style={{ cursor: 'pointer', margin: '0 10px' }}
-                onClick={() => handleIconClick(`redirect_url_${index + 1}`)} // Replace with actual redirect URLs
+                onClick={() => handleIconClick(`https://github.com/Ampersand-Alexander`)} // Replace with actual redirect URLs
                 />
             ))}
             </div>

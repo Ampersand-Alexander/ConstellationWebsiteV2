@@ -9,7 +9,7 @@ const Ruby = () => {
     return (
         <section className="mx-auto flex w-[100%] flex-col lg:flex-row lg:gap-20 relative z-11 w-full flex items-center justify-center overflow-hidden bg-[#000000] bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56" id="greetings h-[100%]">
             <div className="flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#FFFFFF] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed md:ml-40 lg:mb-16  lg:max-w-[90%] lg:text-[24px] lg:ml-80">
-                <AnimatedBody text="My passion lies in creating software that is both beautiful and functional. I’ve been designing for over 8 years and recently started getting into programming." />
+                <AnimatedBody text="Manipulating technology to do cool innovative things is my favorite pastime. This lead me to today where I have gotten into coding to bring my visions to life." />
 
                 <AnimatedBody
                     delay={0.1}

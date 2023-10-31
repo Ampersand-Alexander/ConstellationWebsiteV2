@@ -13,12 +13,12 @@ const Ruby = () => {
 
                 <AnimatedBody
                     delay={0.1}
-                    text="Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                    text="From defining new possibilities to creating your most far fetched imagination, my goal is to share and make those ideas happen."
                 />
 
                 <AnimatedBody
                     delay={0.2}
-                    text="Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
+                    text="Currently, I'm working on my own projects and striving towards higher heights, but I’m always willing to try to new opportunities in the journey forward."
                 />
             </div>
             <Spline scene="https://prod.spline.design/8cPpnsbOgnRFs5wH/scene.splinecode" className="w-[50%] h-full" />

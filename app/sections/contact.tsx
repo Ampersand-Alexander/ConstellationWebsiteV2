@@ -3,8 +3,8 @@ import AnimatedBody from "../animations/AnimatedBody";
 
 const Contacts: React.FC = () => {
   const githubLink = 'https://github.com/Ampersand-Alexander';
-  const linkedinLink = 'https://www.linkedin.com/in/yourusername';
-  const email = 'mailto:youremail@example.com';
+  const linkedinLink = 'https://www.linkedin.com/in/ampersand-alexander/';
+  const email = 'mailto:alextran.engineering@gmail.com';
 
   return (
     <section className="contacts-section" id="contact">
@@ -16,14 +16,14 @@ const Contacts: React.FC = () => {
                   />
       </div>
       <div className="contact-links">
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          <img src={'github.png'} alt="GitHub" width="30" height="30" />
+        <a className="contact-icon" href={githubLink} target="_blank" rel="noopener noreferrer">
+          <img src={'github.png'} alt="GitHub" width="50" height="50" />
         </a>
-        <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
-          <img src={'github.png'} alt="LinkedIn" width="30" height="30" />
+        <a className="contact-icon" href={linkedinLink} target="_blank" rel="noopener noreferrer">
+          <img src={'linkedin.png'} alt="LinkedIn" width="50" height="50" />
         </a>
-        <a href={email}>
-          <img src={'github.png'} alt="Email" width="30" height="30" />
+        <a className="contact-icon" href={email}  target="_blank" rel="noopener noreferrer">
+          <img src={'gmail.png'} alt="Email" width="50" height="50" />
         </a>
       </div>
     </section>

@@ -34,36 +34,39 @@ body {
 .hide-scrollbar::-webkit-scrollbar-thumb {
   background-color: transparent; /* Hide the thumb */
 }
+.nav-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.3);
+}
+
+.landing-content{
+  transition: transform 0.3s ease-in-out;
+}
+
+.landing-content:hover {
+  transform: scale(1.3);
+}
 
 .project-card {
   width: 1000px;
+  height: 200px;
   padding: 40px;
   margin: 20px;
-  background-color: #fff;
+  opacity: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   text-align: center;
   transition: background-color 0.3s;
+  transition: transform 0.3s ease-in-out;
 }
 
-.project-card-hover {
-  scale: 120%;
+.project-card:hover {
+  opacity: 70%;
+  transform: scale(1.05);
 }
-
-.view-button {
-  display: inline-block;
-  padding: 15px 60px;
-  margin-top: 10px;
-  background-color: #736D6DE2;
-  color: #e0e0e0;
-  border-radius: 2px;
-  transition: background-color 0.3s;
-}
-
-.view-button:hover {
-  background-color: #E58989;
-}
-
 /*contacts*/
 .contacts-section {
   text-align: center;
@@ -84,4 +87,12 @@ body {
 
 .contact-header {
   margin-bottom: 50px;
+}
+
+.contact-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-icon:hover{
+  transform: scale(1.3);
 }

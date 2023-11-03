@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import AnimatedBody from "../animations/AnimatedBody";
 
 const NavBar = () => {
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -14,56 +15,55 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 right-0 bg-[#E58989] shadow-lg z-50">
+        <nav className="fixed top-0 left-0 right-0 z-50" style={{ backgroundColor: 'rgba(25, 25, 25, 0.15)', backdropFilter: 'blur(5px)' }}>
             <div className="container mx-auto">
                 <ul className="flex space-x-6 p-4 sm:space-x-20">
-                    <img src="/crown.png" alt="Logo" className="w-8 h-8 right-0" />
-                    <li>
                         <Link
                             href="#home"
                             data-blobity-magnetic="false"
                             onClick={handleScroll}
                             aria-label="Scroll to Home Section"
                         >
-                            <h4 className="text-[12px] sm:text-[14px] md:text-[16px]">
-                                Home
-                            </h4>
+                            <img src="/crown.png" alt="Logo" className="nav-item w-8 h-8" />
+                        </Link>
+                    <li className="nav-item">
+                        <Link
+                            href="#home"
+                            data-blobity-magnetic="false"
+                            onClick={handleScroll}
+                            aria-label="Scroll to Home Section"
+                        >
+                            <AnimatedBody delay={4.0} text="Home"/>
                         </Link>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <Link
                             href="#greetings"
                             data-blobity-magnetic="false"
                             onClick={handleScroll}
                             aria-label="Scroll to About Section"
                         >
-                            <h4 className="text-[12px] sm:text-[14px] md:text-[16px]">
-                                About Me
-                            </h4>
+                            <AnimatedBody delay={4.5} text="About Me"/>
                         </Link>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <Link
                             href="#projects"
                             data-blobity-magnetic="false"
                             onClick={handleScroll}
                             aria-label="Scroll to Projects Section"
                         >
-                            <h4 className="text-[12px] sm:text-[14px] md:text-[16px]">
-                                Projects
-                            </h4>
+                            <AnimatedBody delay={5.0} text="Projects"/>
                         </Link>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <Link
                             href="#contact"
                             data-blobity-magnetic="false"
                             onClick={handleScroll}
                             aria-label="Scroll to Contact Section"
                         >
-                            <h4 className="text-[12px] sm:text-[14px] md:text-[16px]">
-                                Contact
-                            </h4>
+                            <AnimatedBody delay={5.5} text="Contact"/>
                         </Link>
                     </li>
                 </ul>

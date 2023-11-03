@@ -15,16 +15,14 @@ const Landing = () => {
                 <video className="h-full w-full object-cover" autoPlay={true} playsInline={true} loop muted preload="auto">
                     <source src="/tempbck.webm" type="video/webm" />
                 </video>
-                <div className="absolute inset-0 z-0 w-full h-full bg-gradient-to-t from-bg-dark to-transparent" />
+                <div className="absolute inset-0 z-0 w-full h-full bg-gradient-to-t from-bg-dark to-transparent"/>
             </div>
 
             <div className="absolute top-1/8 left-1/2 transform -translate-x-3/4 -translate-y-1/2 text-white text-center landing-content">
                 <AnimatedTitle
-                    delay={0.1}
+                    delay={5.0}
                     text={"I'm Alexander, an Aspiring Software Engineer."}
-                    className={
-                        "mb-0 text-left text-[40px] font-bold leading-[1.2em] tracking-tighter sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
-                    }
+                    className={"mb-0 text-left text-[40px] font-bold leading-[1.2em] tracking-tighter sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"}
                     wordSpace={"mr-[18px]"}
                     charSpace={"mr-[0.001em]"}
                 />

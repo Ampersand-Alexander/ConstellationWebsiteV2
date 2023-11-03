@@ -18,7 +18,7 @@ const Ruby = () => {
                 <AnimatedBody text="Manipulating technology to do cool innovative things is my favorite pastime. This lead me to today where I have gotten into coding to bring my visions to life." />
 
                 <AnimatedBody
-                    delay={0.1}
+                    delay={0.5}
                     text="From defining new possibilities to creating your most far fetched imagination, my goal is to share and make those ideas happen."
                 />
 

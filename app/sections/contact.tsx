@@ -7,7 +7,7 @@ const Contacts: React.FC = () => {
   const email = 'mailto:youremail@example.com';
 
   return (
-    <section className="contacts-section">
+    <section className="contacts-section" id="contact">
       <div className="contact-header text-[30px]">
         <AnimatedBody
                       delay={0.5}

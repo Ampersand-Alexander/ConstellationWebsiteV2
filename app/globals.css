@@ -35,17 +35,9 @@ body {
   background-color: transparent; /* Hide the thumb */
 }
 
-.projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f0f0f0;
-}
-
 .project-card {
-  width: 300px;
-  padding: 20px;
+  width: 500px;
+  padding: 40px;
   margin: 20px;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -54,21 +46,20 @@ body {
   transition: background-color 0.3s;
 }
 
-.project-card:hover {
-  background-color: #e0e0e0;
+.project-card-hover {
+  scale: 120%;
 }
 
 .view-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 60px;
   margin-top: 10px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+  background-color: #736D6DE2;
+  color: #e0e0e0;
+  border-radius: 2px;
   transition: background-color 0.3s;
 }
 
 .view-button:hover {
-  background-color: #0056b3;
+  background-color: #E58989;
 }

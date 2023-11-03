@@ -5,11 +5,8 @@ import gsap from "gsap";
 
 const PreLoader: React.FC = () => {
     useEffect(() => {
-        // Disable scroll on mount
-        document.body.style.overflow = "hidden";
-
         const tl = gsap.timeline();
-
+    
         // Preloader Animation
         const preLoaderAnim = () => {
             tl.to(".texts-container", {
@@ -30,7 +27,7 @@ const PreLoader: React.FC = () => {
                         duration: 2,
                         opacity: 0,
                         ease: "Power4.easeOut",
-                        onComplete: mobileLanding,
+                        onComplete: startLandingAnimation,
                     },
                 )
                 .to(".preloader", {
@@ -38,26 +35,21 @@ const PreLoader: React.FC = () => {
                     css: { display: "none" },
                 });
         };
-
-        const mobileLanding = () => {
-            if (window.innerWidth < 763) {
-                tl.from(".landing__main2", {
-                    duration: 1,
-                    delay: 0,
-                    opacity: 0,
-                    y: 80,
-                    ease: "expo.easeOut",
-                });
-            }
-
-            // Enable scroll when animation is complete
-            document.body.style.overflow = "auto";
-            document.body.classList.add("hide-scrollbar");
+    
+        const startLandingAnimation = () => {
+            const landingTl = gsap.timeline();
+    
+            landingTl.to(".landing-content", {
+                duration: 2,
+                opacity: 1,
+                y: 0,
+                ease: "Power4.easeOut",
+            });
         };
-
+    
         preLoaderAnim();
-    }, []); // Empty dependency array to run the animation only on mount
-
+    }, []);
+    
     return (
         <div
             className="preloader gap-[5px] overflow-hidden text-[14px] sm:gap-[20px] sm:text-[32px] md:text-[45px] lg:text-[70px]"

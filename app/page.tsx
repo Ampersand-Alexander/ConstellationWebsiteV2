@@ -11,7 +11,6 @@ import PreLoader from "./components/other/PreLoader";
 
 import Navbar from "./sections/navbar";
 import Landing from "./sections/landing";
-import Introduction from "./sections/introduction";
 import Ruby from "./sections/ruby";
 import Projects from './sections/projects';
 import Skills from './sections/skills';
@@ -22,11 +21,10 @@ export default function Home() {
     <>
       <PreLoader />
       <main
-                className="flex flex-col items-center justify-center bg-white overflow-y-scroll hide-scrollbar"
-            ></main>
+        className="flex flex-col items-center justify-center bg-white overflow-y-scroll hide-scrollbar"
+      ></main>
         <Navbar />
         <Landing />
-        <Introduction />
         <Ruby />
         <Projects />
         <Skills />

@@ -7,7 +7,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 const Ruby = () => {
     return (
         <section
-            className="mx-auto flex w-[100%] flex-col lg:flex-row lg:gap-20 relative z-11 w-full flex items-center justify-center overflow-hidden bg-[#000000] bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56" id="greetings h-[100%]"
+            className="mx-auto flex w-[100%] flex-col lg:flex-row lg:gap-20 relative z-11 w-full flex items-center justify-center overflow-hidden bg-[#000000] bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56 h-[100%]"
             id="greetings"
             style={{
                 background: 'rgb(0,0,0)',

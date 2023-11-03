@@ -27,7 +27,7 @@ const Projects = () => {
   ];
   return (
     <section className="relative w-full items-center justify-center overflow-hidden pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-30 lg:pb-56" id="projects">
-      <div className="absolute top-0 left-0 mx-auto flex w-[100%] flex-col lg:gap-10 relative z-10 w-full flex items-center justify-left overflow-hidden bg-[#000000] bg-center pt-16 pb-20 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56" id="greetings h-[100%]">
+      <div className="absolute top-0 left-0 mx-auto flex w-[100%] flex-col lg:gap-10 relative z-10 w-full flex items-center justify-left overflow-hidden bg-[#000000] bg-center pt-16 pb-20 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56 h-[100%]">
         {projectCards.map((project, index) => (
           <Link href={project.link} key={index}>
             <div className="flex w-[100%] flex-col text-[18px] font-medium text-[#FFFFFF] sm:items-center sm:justify-center md:items-center md:text-[20px] lg:items-center lg:mb-16  lg:max-w-[90%] lg:text-[24px]">

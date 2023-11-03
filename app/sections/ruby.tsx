@@ -3,7 +3,6 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
 import AnimatedBody from "../animations/AnimatedBody";
-import AnimatedTitle from "../animations/AnimatedTitle";
 
 const Ruby = () => {
     return (

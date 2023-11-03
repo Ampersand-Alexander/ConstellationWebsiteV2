@@ -32,7 +32,7 @@ const NavBar = () => {
                     </li>
                     <li>
                         <Link
-                            href="#about"
+                            href="#greetings"
                             data-blobity-magnetic="false"
                             onClick={handleScroll}
                             aria-label="Scroll to About Section"

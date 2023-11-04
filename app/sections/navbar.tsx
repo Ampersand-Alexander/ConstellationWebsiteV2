@@ -43,7 +43,7 @@ const NavBar = () => {
                             onClick={handleScroll}
                             aria-label="Scroll to About Section"
                         >
-                            <AnimatedBody delay={4.5} text="About Me"/>
+                            <AnimatedBody delay={4.5} text="About"/>
                         </Link>
                     </li>
                     <li className="nav-item">

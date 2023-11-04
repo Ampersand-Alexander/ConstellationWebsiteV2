@@ -13,11 +13,12 @@ const Landing = () => {
             id="home"
             initial="initial"
             animate="animate"
-            style={{scaleX: scrollYProgress}}
+            /*style={{scaleY: scrollYProgress}}*/
+            style={{}}
         >
             <div className="absolute inset-0 z-0">
                 <video ref={backgroundRef} className="h-full w-full object-cover" autoPlay={true} playsInline={true} loop muted preload="auto">
-                    <source src="/tempbck.webm" type="video/webm" />
+                    <source src="/fractal.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 z-0 w-full h-full bg-gradient-to-t from-bg-dark to-transparent" ref={backgroundRef} />
             </div>
@@ -29,9 +30,8 @@ const Landing = () => {
                     className={"mb-0 text-left text-[40px] font-bold leading-[1.2em] tracking-tighter sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"}
                     wordSpace={"mr-[18px]"}
                     charSpace={"mr-[0.001em]"}
-                    style={{ y: translateYTitle }}
-                    ref={titleRef}
                 />
+                
             </div>
         </motion.section>
     );

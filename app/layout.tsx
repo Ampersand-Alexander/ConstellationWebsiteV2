@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "Alexander's Portfolio",
   description: 'Come check out the website to learn more about me',
+  openGraph:{
+    images:'/metacard.png'
+  }
 }
 
 export default function RootLayout({

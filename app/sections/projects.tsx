@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import AnimatedBody from "../animations/AnimatedBody";
-import Blur from "../components/container/blurbackground";
 
 const Projects = () => {
   const projectCards = [

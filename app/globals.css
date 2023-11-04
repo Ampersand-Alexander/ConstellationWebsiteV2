@@ -47,7 +47,11 @@ body {
 }
 
 .body-text:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
+}
+
+.ruby-container {
+  position: relative;
 }
 
 .landing-content{
@@ -59,7 +63,7 @@ body {
   height: 200px;
   padding: 40px;
   margin: 20px;
-  opacity: 50%;
+  opacity: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   text-align: center;
@@ -74,7 +78,6 @@ body {
 /*contacts*/
 .contacts-section {
   text-align: center;
-  margin-bottom: 500px;
 }
 
 .contact-links {

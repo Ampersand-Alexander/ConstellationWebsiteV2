@@ -15,6 +15,7 @@ import Ruby from "./sections/ruby";
 import Projects from './sections/projects';
 import Skills from './sections/skills';
 import Contact from './sections/contact';
+import Introduction from './sections/introduction';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       ></main>
         <Navbar />
         <Landing />
+        <Introduction />
         <Ruby />
         <Projects />
         <Skills />

@@ -11,14 +11,12 @@ const Projects = () => {
     },
     {
       title: "Solenoid-Enabled Keyboard",
-      description: "",
-      link: "/project2",
+      link: "https://github.com/Ampersand-Alexander/ModernThroneKB",
       background: "/keyboard.png",
     },
     {
       title: "Arduino Based Project",
-      description: "",
-      link: "/project3",
+      link: "https://github.com/Ampersand-Alexander",
       background: "/tba.png",
     },
   ];

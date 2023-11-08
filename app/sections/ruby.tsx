@@ -17,6 +17,9 @@ const Ruby = () => {
                 flexDirection: "row"
             }}
         >
+            <div style={{ position: 'absolute', width: '100%', height: '100%', zIndex: 2 }}>
+                <Spline scene="https://prod.spline.design/8cPpnsbOgnRFs5wH/scene.splinecode" className="w-full h-full" />
+            </div>
             <div className="w-full md:w-1/4 lg:w-2/4 lg:transform -translate-x-2/4">
                 <div className="flex w-full mt-15 flex-col gap-4 text-[18px] font-medium leading-relaxed tracking-wide text-[#FFFFFF] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed md:ml-40 lg:mb-16 lg:max-w-[90%] lg:text-[24px] lg:ml-80">
                     <div className="body-text">
@@ -36,9 +39,7 @@ const Ruby = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 2 }}>
-                <Spline scene="https://prod.spline.design/8cPpnsbOgnRFs5wH/scene.splinecode" className="w-full h-full" />
-            </div>
+            
         </section>
     );
 };

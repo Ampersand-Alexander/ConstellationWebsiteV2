@@ -25,7 +25,8 @@ const Skills = () => {
                         wordSpace={"mr-[18px]"}
                         charSpace={"mr-[0.001em]"}
                 />
-            </div>      
+            </div>
+            
         </section>
         
     );

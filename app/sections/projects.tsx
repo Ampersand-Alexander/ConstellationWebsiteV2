@@ -15,6 +15,11 @@ const Projects = () => {
       background: "/keyboard.png",
     },
     {
+      title: "Crossy Roads in Unreal Engine 5",
+      link: "https://github.com/Ampersand-Alexander/CrossyRoadsUE5",
+      background: "/crossy.png",
+    },
+    {
       title: "Arduino Based Project",
       link: "https://github.com/Ampersand-Alexander",
       background: "/tba.png",

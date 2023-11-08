@@ -33,7 +33,7 @@ const NavBar = () => {
                             onClick={handleScroll}
                             aria-label="Scroll to Home Section"
                         >
-                            <AnimatedBody delay={4.0} text="Home"/>
+                            <AnimatedBody delay={4.0} text="Home" className="mt-2"/>
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -43,7 +43,7 @@ const NavBar = () => {
                             onClick={handleScroll}
                             aria-label="Scroll to About Section"
                         >
-                            <AnimatedBody delay={4.5} text="About"/>
+                            <AnimatedBody delay={4.5} text="About" className="mt-2"/>
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -53,7 +53,7 @@ const NavBar = () => {
                             onClick={handleScroll}
                             aria-label="Scroll to Projects Section"
                         >
-                            <AnimatedBody delay={5.0} text="Projects"/>
+                            <AnimatedBody delay={5.0} text="Projects" className="mt-2"/>
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -63,7 +63,7 @@ const NavBar = () => {
                             onClick={handleScroll}
                             aria-label="Scroll to Contact Section"
                         >
-                            <AnimatedBody delay={5.5} text="Contact"/>
+                            <AnimatedBody delay={5.5} text="Contact" className="mt-2"/>
                         </Link>
                     </li>
                 </ul>
